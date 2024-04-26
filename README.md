@@ -24,20 +24,50 @@ The design uses a clean and modern interface with a focus on user-friendly inter
 
 ## Screenshots
 
-![Opening Screen](Budget-Master-UI/Opening Screen.png)
-![Homepage](Budget-Master-UI/Homepage.png)
-![Expense Tracking](Budget-Master-UI/Expense Tracking.png)
-![Bill Details](Budget-Master-UI/Bill Details.png)
-![Bill Payment](Budget-Master-UI/Bill Payment.png)
-![Connecting Wallet](Budget-Master-UI/Connecting Wallet.png)
-![Income Transactions](Budget-Master-UI/Income Transactions.png)
-![Invoice](Budget-Master-UI/Invoice.png)
-![Notification Screen](Budget-Master-UI/Notification Screen.png)
-![Personal Profile](Budget-Master-UI/Personal Profile.png)
-![Profile](Budget-Master-UI/Profile.png)
-![Security](Budget-Master-UI/Security.png)
-![Under Construction](Budget-Master-UI/Under Construction.png)
-![Wallet](Budget-Master-UI/Wallet.png)
+<div class="screenshot-grid">
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Opening%20Screen.png" alt="Opening Screen">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Homepage.png" alt="Homepage">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Expense%20Tracking.png" alt="Expense Tracking">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Bill%20Details.png" alt="Bill Details">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Bill%20Payment.png" alt="Bill Payment">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Connecting%20Wallet.png" alt="Connecting Wallet">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Income%20Transactions.png" alt="Income Transactions">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Invoice.png" alt="Invoice">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Notification%20Screen.png" alt="Notification Screen">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Personal%20Profile.png" alt="Personal Profile">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Profile.png" alt="Profile">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Security.png" alt="Security">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Under%20Construction.png" alt="Under Construction">
+    </div>
+    <div class="screenshot-item">
+        <img src="Budget-Master-UI/Wallet.png" alt="Wallet">
+    </div>
+</div>
 
 ## How to View
 
@@ -51,3 +81,22 @@ Your feedback is valuable! If you have any suggestions or ideas for improving th
 
 This project is for demonstration purposes only and is not intended for commercial use.
 
+<style>
+    .screenshot-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+    }
+
+    .screenshot-item {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .screenshot-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+</style>
