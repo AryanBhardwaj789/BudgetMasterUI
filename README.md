@@ -24,50 +24,32 @@ The design uses a clean and modern interface with a focus on user-friendly inter
 
 ## Screenshots
 
-<div class="screenshot-grid">
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Opening%20Screen.png" alt="Opening Screen">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Homepage.png" alt="Homepage">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Expense%20Tracking.png" alt="Expense Tracking">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Bill%20Details.png" alt="Bill Details">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Bill%20Payment.png" alt="Bill Payment">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Connecting%20Wallet.png" alt="Connecting Wallet">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Income%20Transactions.png" alt="Income Transactions">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Invoice.png" alt="Invoice">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Notification%20Screen.png" alt="Notification Screen">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Personal%20Profile.png" alt="Personal Profile">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Profile.png" alt="Profile">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Security.png" alt="Security">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Under%20Construction.png" alt="Under Construction">
-    </div>
-    <div class="screenshot-item">
-        <img src="Budget-Master-UI/Wallet.png" alt="Wallet">
-    </div>
-</div>
+<table>
+  <tr>
+    <td><img src="Budget-Master-UI/Opening%20Screen.png" alt="Opening Screen"></td>
+    <td><img src="Budget-Master-UI/Homepage.png" alt="Homepage"></td>
+    <td><img src="Budget-Master-UI/Expense%20Tracking.png" alt="Expense Tracking"></td>
+    <td><img src="Budget-Master-UI/Bill%20Details.png" alt="Bill Details"></td>
+  </tr>
+  <tr>
+    <td><img src="Budget-Master-UI/Bill%20Payment.png" alt="Bill Payment"></td>
+    <td><img src="Budget-Master-UI/Connecting%20Wallet.png" alt="Connecting Wallet"></td>
+    <td><img src="Budget-Master-UI/Income%20Transactions.png" alt="Income Transactions"></td>
+    <td><img src="Budget-Master-UI/Invoice.png" alt="Invoice"></td>
+  </tr>
+  <tr>
+    <td><img src="Budget-Master-UI/Notification%20Screen.png" alt="Notification Screen"></td>
+    <td><img src="Budget-Master-UI/Personal%20Profile.png" alt="Personal Profile"></td>
+    <td><img src="Budget-Master-UI/Profile.png" alt="Profile"></td>
+    <td><img src="Budget-Master-UI/Security.png" alt="Security"></td>
+  </tr>
+  <tr>
+    <td><img src="Budget-Master-UI/Under%20Construction.png" alt="Under Construction"></td>
+    <td><img src="Budget-Master-UI/Wallet.png" alt="Wallet"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ## How to View
 
@@ -80,23 +62,3 @@ Your feedback is valuable! If you have any suggestions or ideas for improving th
 ## License
 
 This project is for demonstration purposes only and is not intended for commercial use.
-
-<style>
-    .screenshot-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 16px;
-    }
-
-    .screenshot-item {
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .screenshot-item img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-</style>
